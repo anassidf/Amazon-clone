@@ -1,0 +1,69 @@
+.login {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+
+.login__box {
+	width: 400px;
+	height: 500px;
+	background-color: rgb(251, 251, 251);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login__amazon {
+	width: 130px;
+	object-fit: contain;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.login__text {
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+.login__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.login__insideBoxContent {
+	margin: 30px;
+}
+
+.login__field {
+	padding: 10px 30px;
+	margin-top: 10px;
+	font-size: large;
+}
+
+.login__form > label {
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.login__button {
+	background-color: rgb(245, 192, 48);
+	padding: 10px 30px;
+	margin-top: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.login__registerationButton {
+	background-color: rgb(236, 233, 224);
+	padding: 10px 30px;
+	margin-top: 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.login__agreementText {
+	margin-top: 10px;
+}

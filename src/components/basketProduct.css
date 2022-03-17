@@ -1,0 +1,40 @@
+.basket__product {
+	margin-top: 20px;
+	width: 100%;
+	background-color: rgb(250, 249, 249);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	border-radius: 40px;
+}
+
+.basket__productRating {
+	display: flex;
+}
+
+.basket__productImage {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.basket__details > button {
+	background-color: rgb(255, 67, 34);
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 170px;
+	padding: 5px 15px;
+	margin-top: 20px;
+}
+
+.basket__details {
+	margin-left: 100px;
+	margin-right: 50px;
+}
+
+.product__detailsContainer {
+	display: flex;
+	align-items: center;
+}
